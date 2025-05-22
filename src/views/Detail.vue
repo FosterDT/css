@@ -258,6 +258,7 @@
       </div>
     </footer>
   </div>
+  
 </template>
 
 <script>

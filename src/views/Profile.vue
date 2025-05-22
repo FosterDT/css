@@ -33,6 +33,10 @@
 
     <!-- Основное содержимое -->
     <main class="main-content" :class="{ darkbox: isDarkTheme }">
+      <ChangePassword 
+      :show="showPasswordModal" 
+      @close="showPasswordModal = false" 
+      @success="handlePasswordSuccess" />
       <div class="profile-container">
         <!-- Режим просмотра -->
         <div v-if="!editMode" class="profile-view">
@@ -157,13 +161,6 @@
     <footer class="footer">
       <p>© 2025 Магазин картриджей</p>
     </footer>
-    
-    <!-- Модальное окно смены пароля -->
-    <ChangePassword 
-      :show="showPasswordModal" 
-      @close="showPasswordModal = false" 
-      @success="handlePasswordSuccess"
-    />
   </div>
 </template>
 
