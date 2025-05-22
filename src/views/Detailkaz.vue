@@ -14,14 +14,14 @@
           </span>
         </button>
         <div v-if="showMenu" class="dropdown-menu">
-          <button @click="navigateTo('/Home')">Главная</button>
-          <button @click="navigateTo('/Registration')">Регистрация</button>
-          <button @click="navigateTo('/catalog')">Каталог</button>
+          <button @click="navigateTo('/Home')">Басты бет</button>
+<button @click="navigateTo('/Registration')">Тіркеу</button>
+<button @click="navigateTo('/catalog')">Каталог</button>
         </div>
       </div>
       <div class="header-center">
-        <h1>Магазин картриджей</h1>
-        <p>Ваш лучший выбор для печати!</p>
+<h1>Картридж қоймасы</h1>
+<p>Басып шығару үшін ең жақсы таңдауыңыз!</p>
       </div>
       <div class="header-right">
         <button class="avatar-btn" @click="navigateTo('/profile')" aria-label="Профиль">
@@ -32,7 +32,7 @@
           </svg>
         </button>
         <label for="theme-slider" class="theme-label">
-          <span class="theme-text">Тёмная тема</span>
+        <span class="theme-text">Қараңғы тақырып</span>
           <div class="toggle-switch">
             <input
               type="checkbox"
@@ -50,8 +50,8 @@
     <main class="main-content">
       <div class="detail-container">
         <div class="detail-header">
-          <h2>О нашем магазине</h2>
-          <p class="subtitle">Качество и надёжность с 2015 года</p>
+         <h2>Біздің дүкен туралы</h2>
+<p class="subtitle">2015 жылдан бері сапа мен сенімділік</p>
         </div>
 
         <!-- Секция о компании -->
@@ -61,18 +61,18 @@
               <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z" fill="currentColor"/>
             </svg>
           </div>
-          <h3>История компании</h3>
-          <p>
-            Наш магазин картриджей начал свою деятельность в 2015 году в небольшом офисе в Усть-Каменогорске. 
-            Основатели компании, увлеченные специалисты в области печатных технологий, 
-            поставили перед собой задачу предоставлять высококачественные расходные материалы 
-            для печатающей техники по доступным ценам.
-          </p>
-          <p>
-            За 10 лет работы мы значительно расширили ассортимент продукции и открыли 
-            несколько точек обслуживания в разных районах города. Наша команда выросла 
-            с 3 до 15 специалистов, каждый из которых является профессионалом своего дела.
-          </p>
+      <h3>Компания тарихы</h3>
+<p>
+Біздің картридж дүкені өз қызметін 2015 жылы Өскемен қаласындағы шағын кеңседе бастады. 
+Компанияның негізін қалаушылар, полиграфиялық технологиялар саласындағы ынталы мамандар,
+жоғары сапалы шығын материалдарымен қамтамасыз етуді алдымызға міндет етіп қойды
+қол жетімді бағамен баспа жабдығы үшін. 
+</p>
+<p>
+10 жыл қызмет ету барысында біз өнім ассортиментін айтарлықтай кеңейтіп, аштық
+қаланың әртүрлі аудандарында бірнеше қызмет көрсету орындары. Біздің команда өсті
+3-тен 15-ке дейін маман, олардың әрқайсысы өз ісінің кәсіби маманы. 
+</p>
         </section>
 
         <!-- Секция услуг -->
@@ -82,7 +82,7 @@
               <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14h-2V9h-2V7h4v10z" fill="currentColor"/>
             </svg>
           </div>
-          <h3>Наши услуги</h3>
+        <h3>Біздің қызметтеріміз</h3>
           <div class="services-grid">
             <div class="service-card">
               <div class="service-icon">
@@ -90,8 +90,8 @@
                   <path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z" fill="currentColor"/>
                 </svg>
               </div>
-              <h4>Продажа картриджей</h4>
-              <p>Широкий ассортимент оригинальных и совместимых картриджей для всех видов принтеров</p>
+         <h4>Картриджді сату</h4>
+<p>Принтерлердің барлық түрлеріне арналған түпнұсқа және үйлесімді картридждердің кең ауқымы</p>
             </div>
             <div class="service-card">
               <div class="service-icon">
@@ -99,8 +99,8 @@
                   <path d="M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z" fill="currentColor"/>
                 </svg>
               </div>
-              <h4>Заправка картриджей</h4>
-              <p>Профессиональная заправка лазерных и струйных картриджей с гарантией качества</p>
+             <h4>Сәуірде картридждерді қайта толтыру</h4>
+<p>Сапа кепілдігі бар лазерлік және сия бүріккіш картридждерді кәсіби түрде толтыру</p>
             </div>
             <div class="service-card">
               <div class="service-icon">
@@ -108,8 +108,8 @@
                   <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z" fill="currentColor"/>
                 </svg>
               </div>
-              <h4>Ремонт принтеров</h4>
-              <p>Диагностика и ремонт лазерных и струйных принтеров любой сложности</p>
+<h4>Принтерді жөндеу</h4>
+<p>Кез келген күрделіліктегі лазерлік және сиялы принтерлерді диагностикалау және жөндеу</p>
             </div>
             <div class="service-card">
               <div class="service-icon">
@@ -117,8 +117,8 @@
                   <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" fill="currentColor"/>
                 </svg>
               </div>
-              <h4>Доставка</h4>
-              <p>Бесплатная доставка товаров по городу при заказе от 5000 тг</p>
+             <h4>Жеткізу</h4>
+<p>5000 теңгеден жоғары тапсырыстар үшін қала ішінде тауарды жеткізу тегін</p>
             </div>
           </div>
         </section>
@@ -130,7 +130,7 @@
               <path d="M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z" fill="currentColor"/>
             </svg>
           </div>
-          <h3>Почему выбирают нас</h3>
+    <h3>Неге бізді таңдау керек</h3>
           <div class="advantages-list">
             <div class="advantage-item">
               <div class="advantage-icon">
@@ -139,8 +139,8 @@
                 </svg>
               </div>
               <div class="advantage-content">
-                <h4>Гарантия качества</h4>
-                <p>Мы предоставляем гарантию на все виды работ и товаров</p>
+ <h4>Сапа кепілдігі</h4>
+<p>Біз жұмыс пен тауарлардың барлық түрлеріне кепілдік береміз</p>
               </div>
             </div>
             <div class="advantage-item">
@@ -150,8 +150,8 @@
                 </svg>
               </div>
               <div class="advantage-content">
-                <h4>Выгодные цены</h4>
-                <p>Конкурентоспособные цены и система скидок для постоянных клиентов</p>
+             <h4>Ең жақсы бағалар</h4>
+<p>Бәсекеге қабілетті бағалар және тұрақты тұтынушыларға арналған жеңілдіктер жүйесі</p>
               </div>
             </div>
             <div class="advantage-item">
@@ -162,8 +162,8 @@
                 </svg>
               </div>
               <div class="advantage-content">
-                <h4>Быстрое обслуживание</h4>
-                <p>Срочная заправка картриджей за 15-30 минут в присутствии клиента</p>
+<h4>Жылдам қызмет</h4>
+<p>Клиенттің қатысуымен картридждерді 15-30 минут ішінде шұғыл толтыру</p>
               </div>
             </div>
             <div class="advantage-item">
@@ -173,8 +173,8 @@
                 </svg>
               </div>
               <div class="advantage-content">
-                <h4>Профессиональная команда</h4>
-                <p>Квалифицированные специалисты с опытом работы более 5 лет</p>
+       <h4>Кәсіби топ</h4>
+<p>5 жылдан астам тәжірибесі бар білікті мамандар</p>
               </div>
             </div>
           </div>
@@ -187,34 +187,34 @@
               <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z" fill="currentColor"/>
             </svg>
           </div>
-          <h3>Часто задаваемые вопросы</h3>
+<h3>Жиі қойылатын сұрақтар</h3>
           <div class="faq-list">
             <div class="faq-item">
-              <h4>Сколько стоит заправка картриджа?</h4>
-              <p>Стоимость заправки зависит от модели картриджа и типа принтера. Цены начинаются от 1500 тг для струйных и от 2000 тг для лазерных картриджей.</p>
-            </div>
+          <h4>Картриджді толтыру қанша тұрады?</h4>
+<p>Қайта толтыру құны картридж үлгісіне және принтер түріне байланысты. Бағалары сия бүріккіштері 1500 теңгеден, лазерлік картридждер 2000 теңгеден басталады.</p>
+</div>
             <div class="faq-item">
-              <h4>Как долго служит заправленный картридж?</h4>
-              <p>Ресурс заправленного картриджа обычно составляет 80-100% от ресурса оригинального картриджа. Точные показатели зависят от модели и интенсивности использования.</p>
-            </div>
+             <h4>Қайта толтырылған картридж қанша уақытқа жетеді?</h4>
+<p>Қайта толтырылған картридждің ресурсы әдетте бастапқы картридж ресурсының 80-100% құрайды. Нақты сандар үлгіге және пайдалану қарқындылығына байланысты.</p>
+</div>
             <div class="faq-item">
-              <h4>Есть ли гарантия на заправку?</h4>
-              <p>Да, мы предоставляем гарантию 30 дней на все виды работ по заправке и восстановлению картриджей.</p>
-            </div>
+           <h4>Қайта толтыруға кепілдік бар ма?</h4>
+<p>Иә, біз картридждерді толтыру және қалпына келтіру бойынша жұмыстардың барлық түрлеріне 30 күндік кепілдік береміз.</p>
+</div>
             <div class="faq-item">
-              <h4>Можно ли заправить любой картридж?</h4>
-              <p>Большинство картриджей поддается заправке, но есть модели с встроенной защитой от повторного использования. Наши специалисты помогут определить возможность заправки вашего картриджа.</p>
-            </div>
+             <h4>Кез келген картриджді толтыруға бола ма?</h4>
+<p>Картридждердің көпшілігі қайта толтырылады, бірақ қайта пайдаланудан кірістірілген қорғанысы бар үлгілер бар. Біздің мамандар картриджді толтыруға болатынын анықтауға көмектеседі.</p>
+</div>
           </div>
         </section>
 
         <!-- Призыв к действию -->
         <section class="cta-section">
-          <h3>Готовы сделать заказ или у вас остались вопросы?</h3>
-          <p>Наши специалисты готовы помочь вам с выбором подходящих расходных материалов или решением любых проблем с печатью.</p>
+         <h3>Тапсырыс беруге дайынсыз ба немесе сұрақтарыңыз бар ма?</h3>
+<p>Біздің мамандар сізге дұрыс шығын материалдарын таңдауға немесе басып шығару мәселелерін шешуге көмектесуге дайын.</p>
           <div class="cta-buttons">
-            <button class="primary-btn" @click="navigateTo('/catalog')">Перейти в каталог</button>
-            <button class="secondary-btn" @click="navigateTo('/Registration')">Зарегистрироваться</button>
+            <button class="primary-btn" @click="navigateTo('/catalog')">Каталогқа өтіңіз</button>
+            <button class="secondary-btn" @click="navigateTo('/Registration')">Тіркелу</button>
           </div>
         </section>
       </div>
@@ -224,16 +224,16 @@
     <footer class="footer">
       <div class="footer-content">
         <div class="footer-section">
-          <h3>Контакты</h3>
+         <h3>Контактілер</h3>
           <p>Тел: +7 (705) 531-49-42</p>
-          <p>Email: kykypysa228@gmail.com</p>
+          <p>Электрондық пошта: kykypysa228@gmail.com</p>
         </div>
         <div class="footer-section">
-          <h3>Адрес</h3>
-          <p>г. Усть-Каменогорск, ул. Сатпаева, 21</p>
+         <h3>Мекенжай</h3>
+         <p>Өскемен қ., көш. Сәтпаева, 21</p>
         </div>
         <div class="footer-section">
-          <h3>Мы в соцсетях</h3>
+         <h3>Біз әлеуметтік желілердеміз</h3>
           <div class="social-icons">
             <a href="https://www.facebook.com/profile.php?id=100081180143002" aria-label="Facebook">
               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -254,7 +254,7 @@
         </div>
       </div>
       <div class="copyright">
-        <p>© 2025 Магазин картриджей - Все права защищены</p>
+        <p>© 2025 Cartridge Store - Барлық құқықтар қорғалған</p>
       </div>
     </footer>
   </div>
@@ -309,687 +309,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Base styles */
-.wrapper {
-  position: relative;
-  min-height: 100vh;
-  background-image: url("../assets/fon.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #f5e5a4;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow-x: hidden;
-  overflow-y: auto !important; 
-  transition: all 0.3s ease;
-}
-
-.dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 0;
-  pointer-events: none;
-  transition: background-color 0.3s ease;
-}
-
-/* Header styles */
-.header {
-  position: relative;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(33, 33, 33, 0.8));
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  color: #f5e5a4;
-  backdrop-filter: blur(5px);
-}
-
-.header-left {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex: 1;
-}
-
-.menu-button {
-  background: transparent;
-  border: none;
-  color: #f5e5a4;
-  cursor: pointer;
-  user-select: none;
-  padding: 6px;
-  border-radius: 5px;
-  transition: all 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.menu-button:hover {
-   background-color: rgba(179, 139, 78, 0.3);
-}
-.hamburger-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 24px;
-  height: 18px;
-}
-.hamburger-icon span {
-  width: 100%;
-  height: 2px;
-  background-color: #f5e5a4;
-  transition: all 0.3s ease;
-  border-radius: 2px;
-}
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: rgba(43, 43, 43, 0.95);
-  border-radius: 6px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  padding: 0.5rem 0;
-  min-width: 180px;
-  z-index: 100;
-  backdrop-filter: blur(8px);
-  transform-origin: top left;
-  animation: menuAppear 0.3s ease forwards;
-}
-
-@keyframes menuAppear {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.dropdown-menu button {
-  display: block;
-  width: 100%;
-  text-align: left;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  background: transparent;
-  color: #f5e5a4;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.dropdown-menu button:hover {
-  background-color: rgba(179, 139, 78, 0.3);
-}
-
-/* Header Center */
-.header-center {
-  text-align: center;
-  flex: 2;
-}
-
-.header-center h1 {
-  font-size: 1.8rem;
-  margin: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.header-center p {
-  margin: 0.5rem 0 0;
-  font-size: 1rem;
-  opacity: 0.9;
-}
-
-/* Header Right */
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  flex: 1;
-  justify-content: flex-end;
-}
-
-.avatar-btn {
-  background: rgba(179, 139, 78, 0.2);
-  border: 2px solid #b38b4e;
-  cursor: pointer;
-  padding: 0;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(179, 139, 78, 0.7);
-  flex-shrink: 0;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.avatar-btn:hover {
-  transform: scale(1.08);
-  box-shadow: 0 0 15px rgba(255, 217, 102, 0.8);
-}
-
-.avatar-icon {
-  width: 100%;
-  height: 100%;
-  display: block;
-  border-radius: 50%;
-  user-select: none;
-}
-
-/* Theme Toggle */
-.theme-label {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  cursor: pointer;
-}
-
-.theme-text {
-  font-size: 0.9rem;
-}
-
-.toggle-switch {
-  position: relative;
-  width: 50px;
-  height: 24px;
-}
-
-.theme-slider {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(179, 139, 78, 0.3);
-  border-radius: 34px;
-  transition: 0.4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 18px;
-  width: 18px;
-  left: 3px;
-  bottom: 3px;
-  background-color: #f5e5a4;
-  border-radius: 50%;
-  transition: 0.4s;
-}
-
-.theme-slider:checked + .slider {
-  background-color: #b38b4e;
-}
-
-.theme-slider:focus + .slider {
-  box-shadow: 0 0 1px #b38b4e;
-}
-
-.theme-slider:checked + .slider:before {
-  transform: translateX(26px);
-}
-
-/* Main Content */
-.main-content {
-  position: relative;
-  z-index: 1;
-  flex: 1;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-y: auto !important;
-}
-
-.detail-container {
-  max-width: 1200px;
-  width: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(33, 33, 33, 0.7));
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(10px);
-}
-
-.dark .detail-container {
-  background: linear-gradient(to right, rgba(20, 20, 20, 0.85), rgba(40, 40, 40, 0.85));
-}
-
-/* Detail Header */
-.detail-header {
-  text-align: center;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid rgba(179, 139, 78, 0.4);
-  padding-bottom: 1.5rem;
-}
-
-.detail-header h2 {
-  font-size: 2.2rem;
-  margin: 0 0 0.5rem;
-  color: #f5e5a4;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.subtitle {
-  font-size: 1.1rem;
-  opacity: 0.9;
-}
-
-/* Section Styles */
-.detail-section {
-  margin-bottom: 3rem;
-  position: relative;
-  padding-left: 3rem;
-}
-
-.section-icon {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 2rem;
-  height: 2rem;
-  color: #b38b4e;
-}
-
-.detail-section h3 {
-  font-size: 1.5rem;
-  margin: 0 0 1.5rem;
-  color: #f5e5a4;
-  display: flex;
-  align-items: center;
-}
-
-.detail-section p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
-/* Services Grid */
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.service-card {
-  background: rgba(50, 50, 50, 0.5);
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-}
-
-.service-icon {
-  width: 40px;
-  height: 40px;
-  color: #b38b4e;
-  margin-bottom: 1rem;
-}
-
-.service-card h4 {
-  margin: 0 0 0.75rem;
-  font-size: 1.25rem;
-}
-
-.service-card p {
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-/* Advantages List */
-.advantages-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-
-.advantage-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  padding: 1rem;
-  background: rgba(50, 50, 50, 0.3);
-  border-radius: 8px;
-  transition: background 0.3s ease;
-}
-
-.advantage-item:hover {
-  background: rgba(179, 139, 78, 0.2);
-}
-
-.advantage-icon {
-  width: 32px;
-  height: 32px;
-  color: #b38b4e;
-  flex-shrink: 0;
-}
-
-.advantage-content h4 {
-  margin: 0 0 0.5rem;
-  font-size: 1.1rem;
-}
-
-.advantage-content p {
-  margin: 0;
-  font-size: 0.95rem;
-}
-
-/* FAQ List */
-.faq-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.faq-item {
-  background: rgba(50, 50, 50, 0.3);
-  border-radius: 8px;
-  padding: 1.25rem;
-  transition: all 0.3s ease;
-}
-
-.faq-item:hover {
-  background: rgba(50, 50, 50, 0.5);
-  transform: translateX(5px);
-}
-
-.faq-item h4 {
-  margin: 0 0 0.75rem;
-  font-size: 1.1rem;
-  color: #b38b4e;
-}
-
-.faq-item p {
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-/* CTA Section */
-.cta-section {
-  text-align: center;
-  background: linear-gradient(to right, rgba(179, 139, 78, 0.3), rgba(179, 139, 78, 0.2));
-  border-radius: 12px;
-  padding: 2.5rem;
-  margin-top: 3rem;
-}
-
-.cta-section h3 {
-  font-size: 1.75rem;
-  margin: 0 0 1rem;
-}
-
-.cta-section p {
-  max-width: 700px;
-  margin: 0 auto 2rem;
-  font-size: 1.1rem;
-}
-
-.cta-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.primary-btn, .secondary-btn {
-  padding: 0.75rem 2rem;
-  border-radius: 50px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border: none;
-}
-
-.primary-btn {
-  background-color: #b38b4e;
-  color: #fff;
-}
-
-.primary-btn:hover {
-  background-color: #c89c5f;
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(179, 139, 78, 0.4);
-}
-
-.secondary-btn {
-  background-color: transparent;
-  color: #f5e5a4;
-  border: 2px solid #b38b4e;
-}
-
-.secondary-btn:hover {
-  background-color: rgba(179, 139, 78, 0.15);
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(179, 139, 78, 0.2);
-}
-
-/* Footer */
-.footer {
-  position: relative;
-  z-index: 10;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(33, 33, 33, 0.9));
-  padding: 3rem 2rem 1.5rem;
-  color: #f5e5a4;
-  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.footer-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 2rem;
-}
-
-.footer-section {
-  flex: 1;
-  min-width: 250px;
-}
-
-.footer-section h3 {
-  font-size: 1.25rem;
-  margin: 0 0 1rem;
-  color: #b38b4e;
-}
-
-.footer-section p {
-  margin: 0.5rem 0;
-  font-size: 0.95rem;
-}
-
-.social-icons {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.5rem;
-}
-
-.social-icons a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: rgba(179, 139, 78, 0.3);
-  color: #f5e5a4;
-  transition: all 0.3s ease;
-}
-
-.social-icons a svg {
-  width: 24px;
-  height: 24px;
-}
-
-.social-icons a:hover {
-  background-color: #b38b4e;
-  transform: translateY(-3px);
-}
-
-.copyright {
-  text-align: center;
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(179, 139, 78, 0.3);
-  font-size: 0.9rem;
-  opacity: 0.8;
-}
-
-/* Dark Theme Adaptations */
-.dark {
-  color: #e5e5e5;
-}
-
-.dark .header,
-.dark .footer {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(20, 20, 20, 0.95));
-}
-
-.dark .service-card,
-.dark .advantage-item,
-.dark .faq-item {
-  background: rgba(30, 30, 30, 0.7);
-}
-
-.dark .cta-section {
-  background: linear-gradient(to right, rgba(130, 100, 56, 0.4), rgba(130, 100, 56, 0.3));
-}
-
-/* Responsive Styles */
-@media (max-width: 1024px) {
-  .header {
-    padding: 1rem;
-  }
-
-  .header-center h1 {
-    font-size: 1.5rem;
-  }
-
-  .detail-container {
-    padding: 1.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem 0.5rem;
-  }
-
-  .header-left,
-  .header-center,
-  .header-right {
-    width: 100%;
-    flex: none;
-    justify-content: center;
-  }
-
-  .header-left {
-    justify-content: flex-start;
-    padding-left: 1rem;
-  }
-
-  .header-right {
-    justify-content: flex-end;
-    padding-right: 1rem;
-  }
-
-  .main-content {
-    padding: 1rem;
-  }
-
-  .detail-header h2 {
-    font-size: 1.8rem;
-  }
-
-  .detail-section {
-    padding-left: 2.5rem;
-  }
-
-  .section-icon {
-    width: 1.8rem;
-    height: 1.8rem;
-  }
-
-  .services-grid,
-  .advantages-list {
-    grid-template-columns: 1fr;
-  }
-
-  .cta-section {
-    padding: 1.5rem;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .footer-section {
-    min-width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .header-center h1 {
-    font-size: 1.3rem;
-  }
-
-  .theme-text {
-    display: none;
-  }
-
-  .detail-header h2 {
-    font-size: 1.5rem;
-  }
-
-  .detail-section {
-    padding-left: 0;
-  }
-
-  .section-icon {
-    position: static;
-    margin-bottom: 0.5rem;
-  }
-
-  .cta-buttons {
-    flex-direction: column;
-    gap: 1rem;
-  }
-}
-</style>

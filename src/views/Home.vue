@@ -17,6 +17,7 @@
           <button @click="navigateTo('/Home')">Главная</button>
           <button @click="navigateTo('/Registration')">Регистрация</button>
           <button @click="navigateTo('/Catalog')">Каталог</button>
+          <button @click="navigateTo('/Login')">Вход</button>
         </div>
       </div>
       <div class="header-center">
@@ -73,7 +74,7 @@
             Біз 10 жылдан астам тәжірибемізбен сапалы картридждер мен басып шығару жабдықтарын ұсынамыз.
             Клиенттерімізге сенімділік пен тиімді баға кепілдігі.
           </p>
-          <button class="learn-more" @click="Detaileng">Көбірек білу</button>
+          <button class="learn-more" @click="Detailkaz">Көбірек білу</button>
         </div>
         <div class="welcome-box">
           <div class="welcome-icon">
